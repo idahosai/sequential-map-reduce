@@ -1,0 +1,22 @@
+step 1:Splitting:
+documents/available computers= # of documents each computer has to process
+step 2:Mapping:
+give document to the appropriate computer/process
+step 3:
+count each word and put key it in a tupple with its # (word,count)
+it uses the map fuction to do this
+step 4:Intermediate Slitting
+-(api)make it so that every node can talk to each other
+-make it so that every node know the totol ammount of nodes in the system
+-the node ping(api) every other node in the system and waits for response
+-
+-(if number of responses < total number of nodes, then something is wrong)
+communicate with other computers/processes
+
+
+
+
+do we have to implement falt tolerance in our map reduce
+
+When the network heals itself, the distributed system must
+ handle consistency issues
